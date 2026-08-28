@@ -1,6 +1,6 @@
-# IP addressing plan
+# IP Addressing Plan
 
-Base block: `192.168.12.0/24`
+Base Block: `192.168.12.0/24`
 
 | Segment | Network | Usable range | Broadcast | Hosts |
 |---|---|---|---|---|
