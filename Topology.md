@@ -15,7 +15,9 @@
 - 2–3 PCs per VLAN for connectivity testing
 - Cloud/internet connection
 
-See [`../diagrams/topology.png`](../diagrams/topology.png) for the diagram.
+Here is Hospital Network Topologydiagram.
+<img width="2720" height="2240" alt="Hospital_Network_Topology" src="https://github.com/user-attachments/assets/c000e56f-5749-4171-a89b-2df3d332ec1c" />
+
 
 ## Testing plan
 
