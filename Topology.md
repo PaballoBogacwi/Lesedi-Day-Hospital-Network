@@ -1,13 +1,13 @@
 # Topology
 
-## Logical topology
+## Logical Topology
 
 - Router connects to the internet (ISP link) and to a core switch.
 - Core switch trunks to three VLANs/segments: Staff LAN, Clinical LAN, Server segment.
 - Web server sits in the Server segment.
 - Router ACL denies Staff LAN → Clinical LAN and Staff LAN → Server segment, while permitting all segments a default route to the internet.
 
-## Physical topology (Packet Tracer)
+## Physical Topology (Packet Tracer)
 
 - 1 router (sub-interfaces per VLAN, router-on-a-stick)
 - 1–2 VLAN-capable switches
@@ -19,7 +19,7 @@ Here is Hospital Network Topology diagram.
 <img width="2720" height="2240" alt="Hospital_Network_Topology" src="https://github.com/user-attachments/assets/c000e56f-5749-4171-a89b-2df3d332ec1c" />
 
 
-## Testing plan
+## Testing Plan
 
 - Staff PC → internet: should succeed
 - Staff PC → Clinical LAN / Server segment: should be blocked (ACL)
