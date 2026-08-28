@@ -3,7 +3,7 @@
 ## Lesedi Day Hospital — Network Design (CMPG 325)
 
 Individual semester project for CMPG 325 — Computer Networks  
-NWU Department of Computer Science and Information Systems
+NWU Department of Computer Science
 
 **Project ID:** CMPG325-2026-004  
 **Client ID:** CLI-004  
