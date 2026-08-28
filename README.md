@@ -1,25 +1,28 @@
 # Lesedi-Day-Hospital-Network
 
-Lesedi Day Hospital — Network Design (CMPG 325)
-Individual semester project for CMPG 325 — Computer Networks (NWU Department of Computer Science and Information Systems).
-Project ID: CMPG325-2026-004
-Client ID: CLI-004
-Assigned Client: Lesedi Day Hospital (Vryburg) — Healthcare
-Student: Bogacwi, P (52442179)
+## Lesedi Day Hospital — Network Design (CMPG 325)
 
-Overview
+Individual semester project for CMPG 325 — Computer Networks  
+NWU Department of Computer Science and Information Systems
 
-This repository documents the design, implementation, and testing of a Cisco Packet Tracer network built for Lesedi Day Hospital, addressing their assigned networking challenge (HTTP/Web Server hosting) within the allocated address block `192.168.12.0/24`.
+**Project ID:** CMPG325-2026-004  
+**Client ID:** CLI-004  
+**Assigned Client:** Lesedi Day Hospital (Vryburg) — Healthcare  
+**Student:** Bogacwi, P (52442179)
 
-Contents
+## Overview
 
-'Client-Requirements.md' — client background, requirements, constraint, and change request
-'Topology.md' — physical and logical topology
-`IP-Addressing.md' — subnetting plan and addressing table
-'packet-tracer/' — final '.pkt' file (added at implementation stage)
+This repository documents the design, implementation, and testing of a Cisco Packet Tracer network built for Lesedi Day Hospital. The project addresses the assigned networking challenge of **HTTP/Web Server hosting** within the allocated address block `192.168.12.0/24`.
 
-Project Status
+## Contents
 
-[x] Milestone 1 — Client design review (requirements, topology, addressing plan)
-[ ] Milestone 2 — Implementation review (working Packet Tracer file, feature configured, testing evidence)
-[ ] Final submission
+- [Client Requirements](Client-Requirements.md) — Client background, requirements, constraints, and change request.
+- [Network Topology](Topology.md) — Physical and logical network topology.
+- [IP Addressing Plan](IP-Addressing-Plan.md) — Subnetting plan and IP addressing table.
+- `packet-tracer/` — Final Cisco Packet Tracer `.pkt` file (added at implementation stage).
+
+## Project Status
+
+- [x] Milestone 1 — Client design review (requirements, topology, addressing plan)
+- [ ] Milestone 2 — Implementation review (working Packet Tracer file, feature configured, testing evidence)
+- [ ] Final submission
