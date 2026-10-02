@@ -6,7 +6,6 @@ A hospital network is different from an office network because a mistake can exp
 
 The client requirement that interested me most was that management must keep internet access even when the staff network is restricted. It forced me to treat "restricted" as two things: who may leave the network (NAT) and who may enter the server segment (ACL). I used both controls so the restriction does not depend on one rule.
 
-**\[ADD: one or two sentences about what you changed between your first idea and the final Milestone 1 design.]**
 
 ## Milestone 2 – Implementation
 
