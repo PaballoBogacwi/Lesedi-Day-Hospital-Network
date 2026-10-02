@@ -44,25 +44,31 @@ The network design and implementation include:
 * **Access Control:** ACL `STAFF-IN` restricts Staff access to the internet and Management network while permitting access to authorised internal services.
 * **Future Expansion:** The CR6 branch network, `192.168.12.128/26`, is reserved for future implementation.
 
-## Repository Contents
+## Project Files
 
-| File/Directory                | Description                                                      |
-| ----------------------------- | ---------------------------------------------------------------- |
-| `Client-Requirements.md`      | Client background, requirements, constraints and change requests |
-| `IP-Addressing-Plan.md`       | Subnetting plan and IP addressing table                          |
-| `Topology.md`                 | Physical and logical network topology                            |
-| `packet-tracer/`              | Cisco Packet Tracer network file                                 |
-| `configs/`                    | Router, switch, ISP and end-device configurations                |
-| `feature-http-web-server.md`  | Documentation of the assigned HTTP/Web Server feature            |
-| `requirements-and-design.md`  | Network requirements and design justification                    |
-| `addressing-plan.md`          | Detailed IP addressing plan                                      |
-| `pt-topology.png`             | Network topology image                                           |
-| `reflections.md`              | Milestone and overall project reflections                        |
-| `troubleshooting-log.md`      | Troubleshooting records and diagnostic playbook                  |
-| `testing-evidence/`           | Test plan, test results and screenshots                          |
-| `technical-report-outline.md` | Structure for the final technical report                         |
-| `README.md`                   | Main project overview and instructions                           |
+- [Client Requirements](Client-Requirements.md)
+- [IP Addressing Plan](IP-Addressing-Plan.md)
+- [Network Topology](Topology.md)
+- [HTTP Web Server](feature-http-web-server.md)
+- [Reflections](reflections.md)
+- [Troubleshooting Log](troubleshooting-log.md)
+- [Technical Report Outline](technical-report-outline.md)
 
+## Network Configurations
+
+- [Router Configuration](configs/R1-Lesedi.txt)
+- [Switch Configuration](configs/SW1-Lesedi.txt)
+- [ISP Router Configuration](configs/ISP-Router.txt)
+- [End-Device Settings](configs/end-devices.md)
+
+## Packet Tracer
+
+- [Packet Tracer Project – Lesedi CMPG325](Lesedi_CMPG325-2026-004_M2.pkt)
+
+## Testing Evidence
+
+- [Testing Evidence Folder](testing-evidence/)
+  
 ## Testing
 
 The network testing process covers the following:
@@ -76,7 +82,6 @@ The network testing process covers the following:
 * Staff access restrictions through ACLs.
 * Connectivity between network devices and services.
 
-The test plan is located in `testing-evidence/test-plan.md`, with supporting screenshots and results stored in `testing-evidence/`.
 
 ## How to Run
 
