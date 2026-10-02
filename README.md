@@ -1,28 +1,113 @@
-# Lesedi-Day-Hospital-Network
+# Lesedi Day Hospital — Network Design (CMPG 325)
 
-## Lesedi Day Hospital — Network Design (CMPG 325)
+Individual semester project for CMPG 325 — Computer Networks
+North-West University (NWU), Mahikeng Campus
+Department of Computer Science and Information Systems
 
-Individual semester project for CMPG 325 — Computer Networks  
-NWU-Mahikeng Campus Department of Computer Science
-
-**Project ID:** CMPG325-2026-004  
-**Client ID:** CLI-004  
-**Assigned Client:** Lesedi Day Hospital (Vryburg) — Healthcare  
-**Student:** Bogacwi, P (52442179)
+**Project ID:** CMPG325-2026-004
+**Client ID:** CLI-004
+**Client:** Lesedi Day Hospital (Vryburg) — Healthcare
+**Student:** Paballo Bogacwi (52442179)
+**Assigned Challenge:** HTTP/Web Server Hosting
+**IP Address Block:** `192.168.12.0/24`
 
 ## Overview
 
-This repository documents the design, implementation, and testing of a Cisco Packet Tracer network built for Lesedi Day Hospital. The project addresses the assigned networking challenge of **HTTP/Web Server hosting** within the allocated address block `192.168.12.0/24`.
+This repository documents the design, implementation, and testing of a Cisco Packet Tracer network developed for Lesedi Day Hospital. The project addresses the hospital's networking requirements and the assigned challenge of internal HTTP/Web Server hosting within the allocated address block `192.168.12.0/24`.
 
-## Contents
-
-- [Client Requirements](Client-Requirements.md) — Client background, requirements, constraints, and change request.
-- [Network Topology](Topology.md) — Physical and logical network topology.
-- [IP Addressing Plan](IP-Addressing-Plan.md) — Subnetting plan and IP addressing table.
-- `packet-tracer/` — Final Cisco Packet Tracer `.pkt` file (added at implementation stage).
+The network incorporates VLAN segmentation, inter-VLAN routing, DHCP, DNS, NAT, access control lists (ACLs), and an internal web server.
 
 ## Project Status
 
-- [x] Milestone 1 — Client design review (requirements, topology, addressing plan)
-- [ ] Milestone 2 — Implementation review (working Packet Tracer file, feature configured, testing evidence)
-- [ ] Final submission
+| Milestone                                  | Date            | Status                  |
+| ------------------------------------------ | --------------- | ----------------------- |
+| Milestone 1 — Client Design Review         | 28 August 2026  | Completed and Submitted |
+| Milestone 2 — Client Implementation Review | 3 October 2026  | Completed and Submitted |
+| Final Submission                           | 16 October 2026 | Pending                 |
+
+### Milestone Checklist
+
+* [x] Milestone 1 — Client Design Review
+* [x] Milestone 2 — Client Implementation Review
+* [ ] Final Submission — Portfolio, report, Packet Tracer file and demonstration video
+
+## Network Implementation
+
+The network design and implementation include:
+
+* **VLANs:** Staff (VLAN 10), Management (VLAN 20), and Servers (VLAN 30).
+* **Inter-VLAN Routing:** Router-on-a-stick configuration.
+* **HTTP/Web Server:** Internal web service hosted at `192.168.12.98` with a custom portal page.
+* **DHCP:** Dynamic IP address allocation for Staff and Management devices.
+* **DNS:** Name resolution for `portal.lesedihospital.co.za`.
+* **NAT Overload:** Provides internet access to the Management network.
+* **Access Control:** ACL `STAFF-IN` restricts Staff access to the internet and Management network while permitting access to authorised internal services.
+* **Future Expansion:** The CR6 branch network, `192.168.12.128/26`, is reserved for future implementation.
+
+## Repository Contents
+
+| File/Directory                | Description                                                      |
+| ----------------------------- | ---------------------------------------------------------------- |
+| `Client-Requirements.md`      | Client background, requirements, constraints and change requests |
+| `IP-Addressing-Plan.md`       | Subnetting plan and IP addressing table                          |
+| `Topology.md`                 | Physical and logical network topology                            |
+| `packet-tracer/`              | Cisco Packet Tracer network file                                 |
+| `configs/`                    | Router, switch, ISP and end-device configurations                |
+| `feature-http-web-server.md`  | Documentation of the assigned HTTP/Web Server feature            |
+| `requirements-and-design.md`  | Network requirements and design justification                    |
+| `addressing-plan.md`          | Detailed IP addressing plan                                      |
+| `pt-topology.png`             | Network topology image                                           |
+| `reflections.md`              | Milestone and overall project reflections                        |
+| `troubleshooting-log.md`      | Troubleshooting records and diagnostic playbook                  |
+| `testing-evidence/`           | Test plan, test results and screenshots                          |
+| `technical-report-outline.md` | Structure for the final technical report                         |
+| `README.md`                   | Main project overview and instructions                           |
+
+## Testing
+
+The network testing process covers the following:
+
+* DHCP address allocation for Staff and Management PCs.
+* VLAN configuration and trunk connectivity.
+* Inter-VLAN routing.
+* DNS resolution for the internal web portal.
+* HTTP access to the internal web server.
+* Management internet access through NAT.
+* Staff access restrictions through ACLs.
+* Connectivity between network devices and services.
+
+The test plan is located in `testing-evidence/test-plan.md`, with supporting screenshots and results stored in `testing-evidence/`.
+
+## How to Run
+
+1. Open the Cisco Packet Tracer `.pkt` file in the `packet-tracer/` directory.
+2. Allow the network topology and devices to load.
+3. Ensure that PCs are configured to obtain IP addresses through DHCP and that servers use the static IP addresses documented in `configs/`.
+4. Verify the router and switch configurations using the files in `configs/`.
+5. From a Staff PC, browse to `http://192.168.12.98` to test access to the internal web server.
+6. From a Management PC, browse to `http://198.51.100.10` to test external server access, where configured.
+7. Follow the test plan to reproduce and document the network test results.
+
+## Troubleshooting
+
+The `troubleshooting-log.md` file documents configuration problems encountered during implementation, their symptoms, diagnostic steps, and resolutions.
+
+It also provides guidance for diagnosing common networking issues involving DHCP, VLANs, ACLs, NAT, DNS, and HTTP services.
+
+## Reflections
+
+The `reflections.md` file contains reflections on:
+
+* **Milestone 1:** Network design decisions, requirements, topology and IP addressing.
+* **Milestone 2:** Implementation challenges, troubleshooting and configuration.
+
+
+
+**Final Submission Date:** 16 October 2026
+
+---
+
+**CMPG 325 — Computer Networks**
+**North-West University**
+**Student: Paballo Bogacwi (52442179)**
+
