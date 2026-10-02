@@ -54,13 +54,6 @@ The network design and implementation include:
 - [Troubleshooting Log](troubleshooting-log.md)
 - [Technical Report Outline](technical-report-outline.md)
 
-## Network Configurations
-
-- [Router Configuration](configs/R1-Lesedi.txt)
-- [Switch Configuration](configs/SW1-Lesedi.txt)
-- [ISP Router Configuration](configs/ISP-Router.txt)
-- [End-Device Settings](configs/end-devices.md)
-
 ## Packet Tracer
 
 - [Packet Tracer Project – Lesedi CMPG325](Lesedi_CMPG325-2026-004_M2.pkt)
