@@ -67,7 +67,7 @@ The network design and implementation include:
 
 ## Testing Evidence
 
-- [Testing Evidence Folder](testing-evidence/)
+- [Testing Evidence (Screenshots & Proof)](testing-evidence.zip)
   
 ## Testing
 
