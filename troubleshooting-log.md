@@ -1,8 +1,7 @@
 # Troubleshooting Log – Lesedi Day Hospital Network
 
-This log has two parts: a **diagnostic playbook** written for this specific design (what breaks in a VLAN + ACL + NAT + DNS build, and how to prove it), and a **build log** of the problems I actually hit.
 
-## Part 1 – Diagnostic playbook (design-specific)
+## Part 1 – Diagnostic playbook 
 
 |Symptom|Most likely cause in this design|How I check|Fix|
 |-|-|-|-|
