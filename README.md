@@ -16,20 +16,31 @@ Department of Computer Science and Information Systems
 This repository documents the design, implementation, and testing of a Cisco Packet Tracer network developed for Lesedi Day Hospital. The project addresses the hospital's networking requirements and the assigned challenge of internal HTTP/Web Server hosting within the allocated address block `192.168.12.0/24`.
 
 The network incorporates VLAN segmentation, inter-VLAN routing, DHCP, DNS, NAT, access control lists (ACLs), and an internal web server.
-
 ## Project Status
 
-| Milestone                                  | Date            | Status                  |
-| ------------------------------------------ | --------------- | ----------------------- |
-| Milestone 1 — Client Design Review         | 28 August 2026  | Completed and Submitted |
-| Milestone 2 — Client Implementation Review | 3 October 2026  | Completed and Submitted |
-| Final Submission                           | 16 October 2026 | Pending                 |
+**Status: Completed — Final Submission**
 
-### Milestone Checklist
+All project milestones and final deliverables have been completed as of 16 October 2026.
 
-* [x] Milestone 1 — Client Design Review
-* [x] Milestone 2 — Client Implementation Review
-* [ ] Final Submission — Portfolio, report, Packet Tracer file and demonstration video
+| Milestone | Date | Status |
+|---|---|---|
+| Milestone 1 — Client Design Review | 28 August 2026 | Completed and Submitted |
+| Milestone 2 — Client Implementation Review | 3 October 2026 | Completed and Submitted |
+| Final Submission | 16 October 2026 | Completed and Submitted |
+
+### Final Submission Checklist
+
+- [x] Milestone 1 — Client Design Review
+- [x] Milestone 2 — Client Implementation Review
+- [x] Network design and implementation
+- [x] HTTP/Web Server Hosting
+- [x] Network testing and troubleshooting
+- [x] Testing evidence and screenshots
+- [x] Technical report and project portfolio
+- [x] Cisco Packet Tracer project file
+- [x] Demonstration video
+- [x] Final project documentation
+
 
 ## Network Implementation
 
