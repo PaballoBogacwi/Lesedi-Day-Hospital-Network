@@ -119,7 +119,7 @@ All project milestones and final deliverables have been completed as of 16 Octob
 - [x] Technical report and project portfolio
 - [x] Cisco Packet Tracer project file
 - [x] Demonstration video
-- [x] Final project documentation6
+- [x] Final project documentation
 
 ---
 
