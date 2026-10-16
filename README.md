@@ -94,7 +94,7 @@ It also provides guidance for diagnosing common networking issues involving DHCP
 
 ## Reflections
 
-The `reflections.md` file contains reflections on:
+The `reflections.md` file contains reflections on the work done throughout the entirety of the project.
 
 ## Project Status
 
